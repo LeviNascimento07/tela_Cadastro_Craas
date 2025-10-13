@@ -23,7 +23,7 @@
 }
 
 /* Div do formulário */
-.RegisterForms {
+.auth-pages {
   width: 100%;           /* ocupa toda largura disponível dentro do container */
   max-width: 500px;      /* limita largura máxima */
 
