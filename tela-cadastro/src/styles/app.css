@@ -14,10 +14,10 @@
 
 /* Div do título */
 .Text-Primary {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: #006400; /* verde da prefeitura do Ceará */
-  margin-bottom: 30px; /* espaço entre título e formulário */
+  margin-bottom: 40px; /* espaço entre título e formulário */
   text-align: center;
   font-family: Arial, sans-serif;
 }
@@ -29,3 +29,18 @@
 
   justify-content: center; /* centraliza o formulário dentro da div */
 }
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* espaço entre imagem e texto */
+}
+
+.logo-prefeitura {
+  width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+

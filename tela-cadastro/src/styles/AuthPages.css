@@ -14,20 +14,42 @@ height: 100vh;
 font-family: Arial, sans-serif;
 }
 
-/* Container principal */
 .auth-container {
-width: 400px;
-max-width: 90%;
-background: #fff;
-border-radius: 10px;
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-overflow: hidden;
-transition: transform 0.3s ease;
+  width: 500px;                /* aumentei a largura */
+  margin: 0 auto;              /* centraliza horizontalmente */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);  /* centraliza mais verticalmente */
+}
+.auth-container {
+  width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);
+  transition: all 0.3s ease;   /* suaviza a animação */
 }
 
+/* Efeito hover no container */
 .auth-container:hover {
-transform: scale(1.01);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* sombra mais forte */
+  transform: translateY(15%);                 /* leve subida */
+  scale: 1.02;                                /* cresce 2% */
 }
+
+
 
 /* Abas superiores (login/cadastro) */
 .auth-tabs {
